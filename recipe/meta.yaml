@@ -1,5 +1,5 @@
 {% set name = "mypy-boto3-appflow" %}
-{% set version = "1.24.90" %}
+{% set version = "1.25.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mypy-boto3-appflow-{{ version }}.tar.gz
-  sha256: 95ec19609966dc13bea14b1a437be0f5a400cc3e4eecfa99f5ed0c1da59cbff2
+  sha256: 34f9ecb14665a23075cfaf80f0997b9a93d9c6f2b5c67d0f31bd5cfe5cc4b71e
 
 build:
   noarch: python
@@ -33,7 +33,7 @@ test:
 
 about:
   home: https://github.com/youtype/mypy_boto3_builder
-  summary: Type annotations for boto3.Appflow 1.24.90 service generated with mypy-boto3-builder 7.11.10
+  summary: Type annotations for boto3.Appflow 1.25.0 service generated with mypy-boto3-builder 7.11.10
   dev_url: https://github.com/youtype/mypy_boto3_builder
   license: MIT
   license_family: MIT
