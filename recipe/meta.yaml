@@ -1,5 +1,5 @@
 {% set name = "mypy-boto3-appflow" %}
-{% set version = "1.25.0" %}
+{% set version = "1.26.0.post1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mypy-boto3-appflow-{{ version }}.tar.gz
-  sha256: 34f9ecb14665a23075cfaf80f0997b9a93d9c6f2b5c67d0f31bd5cfe5cc4b71e
+  sha256: 22c5c2ec500965c988cc60a359793a003184cef0222370625734f8d218290d53
 
 build:
   noarch: python
