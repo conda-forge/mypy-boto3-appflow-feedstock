@@ -33,7 +33,7 @@ test:
 
 about:
   home: https://github.com/youtype/mypy_boto3_builder
-  summary: Type annotations for boto3.Appflow 1.26.53 service generated with mypy-boto3-builder 7.12.3
+  summary: Type annotations for boto3.Appflow 1.26.78 service generated with mypy-boto3-builder 7.12.4
   dev_url: https://github.com/youtype/mypy_boto3_builder
   license: MIT
   license_family: MIT
