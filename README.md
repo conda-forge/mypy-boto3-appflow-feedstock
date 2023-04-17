@@ -1,13 +1,13 @@
-About mypy-boto3-appflow
-========================
+About mypy-boto3-appflow-feedstock
+==================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mypy-boto3-appflow-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/youtype/mypy_boto3_builder
 
 Package license: MIT
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mypy-boto3-appflow-feedstock/blob/main/LICENSE.txt)
-
-Summary: Type annotations for boto3.Appflow 1.26.53 service generated with mypy-boto3-builder 7.12.3
+Summary: Type annotations for boto3.Appflow 1.26.78 service generated with mypy-boto3-builder 7.12.4
 
 Development: https://github.com/youtype/mypy_boto3_builder
 
