@@ -7,7 +7,7 @@ Home: https://github.com/youtype/mypy_boto3_builder
 
 Package license: MIT
 
-Summary: Type annotations for boto3.Appflow 1.26.123 service generated with mypy-boto3-builder 7.14.5
+Summary: Type annotations for boto3.Appflow 1.26.145 service generated with mypy-boto3-builder 7.14.5
 
 Development: https://github.com/youtype/mypy_boto3_builder
 
