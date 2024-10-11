@@ -1,5 +1,5 @@
 {% set name = "mypy-boto3-appflow" %}
-{% set version = "1.35.0" %}
+{% set version = "1.35.39" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: b4d09fad4cec4478697c863e0f663e3ac70c9d8c3b946798845becfb01eaf739
+  sha256: 5b9189a0645051c8d30546005898c180c29c00a45d9faddd795b3253a7b34485
 
 build:
   noarch: python
@@ -19,6 +19,7 @@ requirements:
     - python >=3.7
     - pip
   run:
+    - typing_extensions >=4.1.0
     - python >=3.7
     - boto3
     # for all python to keep this noarch: python
