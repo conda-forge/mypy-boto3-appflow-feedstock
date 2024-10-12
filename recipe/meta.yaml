@@ -11,15 +11,15 @@ source:
 
 build:
   noarch: python
-  script: {{ PYTHON }} -m pip install . -vv
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   number: 0
 
 requirements:
   host:
     - python >=3.7
     - pip
+    - setuptools
   run:
-    - typing_extensions >=4.1.0
     - python >=3.7
     - boto3
     # for all python to keep this noarch: python
