@@ -20,11 +20,10 @@ requirements:
     - pip
     - setuptools
   run:
-    - typing_extensions
     - python >={{ python_min }}
     - boto3
     # for all python to keep this noarch: python
-    - typing-extensions >=4.1.0
+    - typing_extensions
 
 test:
   imports:
