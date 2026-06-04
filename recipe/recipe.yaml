@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: mypy-boto3-appflow
-  version: "1.43.0"
+  version: 1.43.23
 
 package:
   name: ${{ name|lower }}
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: 01a7b37454a81b426d59004e01dd5fde0521b69a4c2faf23f4dbde3d86e3b1d2
+  sha256: ed0619b8ec4edf6f95629581a0394e0588511cfddb5412c28559a8afbb6ecae0
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
@@ -24,10 +24,7 @@ requirements:
     - setuptools >=60
   run:
     - python >=${{ python_min }}
-    - boto3
-    # for all python to keep this noarch: python
     - typing_extensions
-
 tests:
   - python:
       imports:
