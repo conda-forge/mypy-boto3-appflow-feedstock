@@ -24,6 +24,8 @@ requirements:
     - setuptools >=60
   run:
     - python >=${{ python_min }}
+    - boto3
+    # for all python variants to stay noarch: python
     - typing_extensions
 tests:
   - python:
