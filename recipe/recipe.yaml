@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: mypy-boto3-appflow
-  version: "1.43.90"
+  version: "1.44.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: 45ea902ee38815a3528406df34e328a3f63e59a76baeb63e8e3ff2fdfb40a829
+  sha256: a6aac5a8b41a6aa81f4f5cfef84c877b3c11f0c515ed9b308f8b3538b42f1780
 
 build:
   number: 0
